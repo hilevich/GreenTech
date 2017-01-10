@@ -1,0 +1,485 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+
+	}
+
+.header{
+ 
+	padding-top: 110px;
+	padding-bottom: 60px;
+    background: url(../img/20161224_114454.jpg) bottom right no-repeat;
+    
+
+	}
+.footer{
+	width: 100%;
+	background: #23b14d;
+	margin-top: 30px;
+}
+
+.main{
+	width: 100%;
+	
+}
+.row::after,.row::before{
+	content:"";
+	display:block;
+	clear:both;
+}
+/* -------------------------      header      -------------------------------*/
+.header-about{
+	text-align:center;
+	
+	}
+.header-about h1{
+	color:#5ab241;
+	font-size: 66px;
+	font-family: Open Sans, sans-serif;
+	text-shadow: 1px 1px 2px black, 0 0 1em #3C6; 
+	margin-left: 5%;
+	margin-right: 5%;
+	}
+	
+.header-about-advantages{
+	margin: 50px 15% 50px 15%;
+	background: rgba(0, 0, 0, 0.7);
+	
+	padding: 30px 3% 30px 3%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.6); 
+	}
+.header-about-advantages-block {
+	margin-bottom: 20px;
+	text-align:left;
+	color:#CCC;
+	}
+.header-about-advantages-block h5{
+	padding-top: 5px;
+	color:#5ab241;
+	font-size:24px;
+	font-family: Open Sans, sans-serif;
+	text-shadow: 1px 1px 2px black;
+	}
+.header-about-advantages-block p{
+	color:#FFF;
+	font-size: 20px;
+	padding-top: 15px;
+	font-family: Open Sans, sans-serif;
+	}
+.header-about-advantages-block img{
+	float:left;
+	margin-bottom: 10px;
+	margin-right: 15px;
+	}
+.header-about-advantages h4{
+font-family: Open Sans, sans-serif;
+font-size: 36px;
+color:#FFF;
+margin-bottom: 10px;
+text-shadow: 1px 1px 2px black;
+}
+.header_main{
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display:block;
+	background: rgba(246, 246, 246, 0.8);
+	border-bottom:1px solid #999;
+	}
+
+.header_logo{
+	width: 25%;
+	float:left;
+	
+	}
+.header_logo img{
+	float:right;
+	padding: 10px 10% 10px 0;
+	}
+.header_buttom{
+	width: 50%;
+	float:left;
+	text-align:center;
+	padding-top: 20px;
+
+	}
+.header_buttom a{
+	text-decoration: none;
+	padding: 20px 7px 10px 7px;
+	color: #000;
+	font-size: 18px;
+	font-weight: 100;
+	font-family: Open Sans, sans-serif;
+	webkit-transition: 400ms ;
+    -o-transition: 400ms ;
+	transition: 400ms ;
+	}
+.header_buttom a:hover{
+	border-bottom: 2px solid #23b14d;
+	color:#23b14d;
+	background:rgba(0,0,0,0.04);
+	}
+
+.header_info{
+	float: left;
+	width: 25%;
+	text-align:right;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	}
+.header_info a{
+	font-family: Open Sans, sans-serif;
+	text-decoration:none;
+	font-size: 20px;
+	color: #30ed68;
+	text-shadow: 1px 1px black;
+	padding: 0 30px 10px 0;
+
+	}
+.about{
+	padding: 100px 15% 100px 15%;
+	text-align:center;
+	}
+
+.about h2{
+	font-family: Open Sans, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	}
+.about p{
+	font-family: Open Sans, sans-serif;
+	font-size: 20px;	
+	padding-bottom: 10%;
+	}
+
+.about_second{
+	float:left;
+	width: 31.3%;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align:center;
+	}
+
+.about_second h3{
+	margin-top: 20px;
+	color: #363636;
+    font-size: 22px;
+    line-height: 22px;
+	font-weight: 200;
+	margin-bottom: 20px;
+	font-family: Open Sans, sans-serif;
+	}
+
+
+.about_second:hover h3{
+	color: #23b14d;
+	font-family: Open Sans, sans-serif;
+	}
+
+.block{
+	margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 150px;
+    padding-right: 20px;
+    padding-bottom: 150px;
+    padding-left: 20px;
+    background-image: url(../img/Greenteh-drova-kolun-drovokoly-ukraina.jpg);
+    background-repeat: no-repeat;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+	text-align:center;
+}
+.block p{
+	margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+	text-shadow: 1px 1px 2px black;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 900;
+	font-family: Open Sans, sans-serif;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+	}
+.product{
+	text-align:center;
+	padding-top: 50px;
+	color:#000;
+	}
+	
+
+.product h2{
+	font-size:36px;
+	color: #363636;
+	font-family: Open Sans, sans-serif;
+	margin-bottom: 30px;
+	}
+.table{
+	width: 70%;
+	margin:auto;
+	text-align:left;
+	}
+.table_row{
+	float:left;
+	width: 28%;
+	padding: 10px 2% 15px 2%;
+	vertical-align: text-top;
+	}
+.table h3{
+	font-weight: 500;
+	font-family: Open Sans, sans-serif;
+ 	font-size: 24px;
+    line-height: 1.1;
+	}
+.table_row img{
+	max-width: 100%;
+    height: auto;
+	margin-top: 10px;
+	}
+
+.table_row hr{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+	}
+
+.table_row p{
+	font-family: Open Sans, sans-serif;
+	font-size: 20px;
+	}
+.table_row ul{
+	font-family: Open Sans, sans-serif;
+	margin-left: 40px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	}
+
+.table_row iframe{
+	height: 230px;
+    width: 100%;
+    border: 0;
+	}
+
+.btn{
+	text-decoration:none;
+	color: #ffffff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 20px;
+	font-family: Open Sans, sans-serif;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	margin-top: 10px;
+	-webkit-transition: color 400ms, background-color 400ms, border-color 400ms;
+    -o-transition: color 400ms, background-color 400ms, border-color 400ms;
+    transition: color 400ms, background-color 400ms, border-color 400ms;
+	}
+	
+.btn:hover{
+background-color: #23b14d;
+}
+.coppy_right{
+	padding: 15px 15% 15px 15%;
+	background-color:#1c8f3e;
+	color:#FFF;
+	
+	}
+.footer_info{
+	float:left;
+	font-size:20px;
+	padding: 50px 0 50px 15%;
+	width: 35%;
+	color:#FFF;
+	vertical-align:central;
+	}
+.mail{
+	padding:5px 0 5px 0;}
+	
+.footer_info img{
+	margin-right: 5px;}	
+	
+	
+.footer_info a{
+	font-family: Open Sans, sans-serif;
+	vertical-align:central;
+	text-decoration:none;
+	color:#FFF;
+	}
+.footer_social{
+	float:left;
+	font-size:24px;
+	padding: 50px 15% 50px 0;
+	width: 35%;
+	color:#FFF;
+	text-align:right;
+	vertical-align:central;
+	font-family: Verdana;
+	
+	}
+
+.footer_social p{
+	font-family: Open Sans, sans-serif;
+	margin-bottom: 15px;}
+.footer_social a{
+	font-family: Open Sans, sans-serif;
+	margin-left: 55px;
+	}
+.fb{
+	position:absolute;
+	right: 23%;
+	}
+.google{
+	position:absolute;
+	right: 19%;
+	}
+.yt{
+	position:absolute;
+	right: 15%;
+	}
+.footer_social img:hover{
+	height: 35px;
+	width: 35px;
+	}
+@media screen and (min-width: 1025px) and (max-width: 1170px){
+.popup img{
+	width: 100%;
+	height: 600px;
+	}
+	
+	}
+@media screen and (min-width: 741px) and (max-width: 1024px){
+.header_buttom{
+	display:none;
+	}	
+.header_logo{
+	width: 45%;
+	float:left;
+	
+	}
+.header_info{
+	width: 55%;
+	
+	}
+.header_info a{
+
+	font-size: 26px;
+	}
+	
+.header-about-advantages{
+	margin: 50px 5% 50px 5%;}
+	
+.about{
+	padding: 100px 5% 100px 5%;
+}
+.table{
+	width: 90%;
+}
+.footer_social{
+	padding: 50px 5% 50px 0;
+	width:45%;
+}
+.footer_info{
+width:45%;
+	padding: 50px 0 50px 5%;
+}
+.fb{
+	right: 19%;
+	}
+.google{
+	right: 12%;
+	}
+.yt{
+	right: 5%;
+	}
+.popup img{
+	width: 100%;
+	height: 550px;
+	}
+
+}
+
+@media screen and (min-width: 240px) and (max-width: 740px){
+.popup img{
+	width: 100%;
+	height: 350px;
+	}
+.header_buttom{
+	display:none;
+	}	
+.header_logo{
+	width: 45%;
+	float:left;
+	
+	}
+.header_info{
+	width: 55%;
+	
+	}
+.header_info a{
+
+	font-size: 26px;
+	}
+	
+.header-about-advantages{
+	margin: 50px 1% 50px 1%;}
+	
+.about{
+	padding: 100px 1% 100px 1%;
+}
+.table{
+	width: 98%;
+}
+.footer_social{
+	padding: 50px 1% 50px 0;
+	width:49%;
+}
+.footer_info{
+width:49%;
+	padding: 50px 0 50px 1%;
+}
+.fb{
+	right: 19%;
+	}
+.google{
+	right: 12%;
+	}
+.yt{
+	right: 5%;
+	}
+	
+.table_row{
+	float:none;
+	width: 98%;
+	padding: 10px 1% 15px 1%;
+	
+	}
+
+}
